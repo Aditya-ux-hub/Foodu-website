@@ -166,7 +166,7 @@ p {
 
 .content {
   position: relative;
-  height: 600px !important;
+  /* min-height: 600px !important; */
   width: 100%;
   background-color: #1d2024;
   color: #eff0ea;
@@ -260,43 +260,9 @@ p {
 }
 
 /* ==================================================  */
-
-/* 
-<!-- card  -->
-<div
-  class="cardd w-25 px-2 shadow py-3 h-25 rounded-3 d-flex flex-column align-items-center gap-2 bg-white"
->
-  <div class="top">
-    <img
-      src="./images/food-card-2.jpg"
-      alt=""
-      class="rounded-circle"
-      width="100px"
-    />
-  </div>
-  <h5>Fries McDonald's</h5>
-  <p class="fs-6 text-center">
-    Considered introduced themselves mr to discretion at. Means among
-    saw hopes.
-  </p>
-  <p
-    class="border border-top-4 border-bottom-4 border-black border-start-0 border-end-0 py-1"
-  >
-    Beef / Olive Oil / Salt
-  </p>
-
-  <!-- price  -->
-  <div
-    class="pricing d-flex align-items-center justify-content-between w-100 px-5"
-  >
-    <div class="left">
-      <p class="fs-6">Pricee</p>
-      <h6>$ 12.18</h6>
-    </div>
-
-    <i class="ti ti-heart fs-3 text-danger"></i>
-  </div>
-  <!-- price  -->
-  <button class="hov-btns">Order Now</button>
-</div>
-<!-- card  --> */
+ 
+@media only screen and (max-width: 600px) {
+   .media-que{
+    font-size: 20px !important;
+   }
+}
