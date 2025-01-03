@@ -47,7 +47,7 @@ body {
     background-color: #ea0029;
     transform: rotate(60deg);
     /* bottom: 900px !important; */
-    top: -267px;
+    top: -297px;
     z-index: 9;
     left: 50%;
   }
@@ -264,5 +264,14 @@ p {
 @media only screen and (max-width: 600px) {
    .media-que{
     font-size: 20px !important;
+   }
+   .arrow-text::after{
+    display:none !important;
+   }
+   .arrow-2nd::after{
+    display: none !important;
+   }
+   .blocks{
+    display: none !important;
    }
 }
