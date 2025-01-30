@@ -140,7 +140,7 @@ button {
   color: #ea0029;
 }
 .text-grey {
-  color: #666666;
+  color: #666666 !important;
 }
 p {
   word-spacing: 0.5px;
